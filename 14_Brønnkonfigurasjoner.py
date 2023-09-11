@@ -329,6 +329,8 @@ def add_random_eb(dataframe):
 st.button("Oppdater")
 st.title("Brønnkonfigurasjoner")
 
+#tab1, tab2, tab3 = st.tabs(["40 mm", "45 mm", "50 mm"])
+
 df = pd.DataFrame({
     "ID" : ["EB1", "EB2", "EB3", "EB4", "EB5", "EB6", "EB7", "TR", "SK1", "EB8"],
     "X" : [5, 35, 20, -10, -25, 20, -10, 50, 0, 60],
